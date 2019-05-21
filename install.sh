@@ -10,7 +10,7 @@ sudo virtualenv --system-site-packages ~/venvs/tensorflow
 source ~/venvs/tensorflow/bin/activate
 
 # optional
-pip install --upgrade numpy scipy wheel cryptography
+sudo pip install --upgrade numpy scipy wheel cryptography
 
 # install tensorflow (only use CPU)
 sudo pip install --upgrade tensorflow
